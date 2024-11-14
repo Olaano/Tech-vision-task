@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+.left, .right {
+ float: left;
+ width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+ float: left;
+ width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+ .left, .main, .right {
+   width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>  <style>
+.left, .right {
+ float: left;
+ width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+ float: left;
+ width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+ .left, .main, .right {
+   width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+
+</head>
+
+<body>
+<img src="/task/3_Forest.jpg" style="width:100%;">
+<img src="/task/3_Forest.jpg" style="max-width:100%;height:auto;"
+<picture>
+  <source srcset="/task/img_smallflower 1.jpg" media="(max-width: 600px)">
+  <source srcset="/task/img_smallflower 1.jpg" media="(max-width: 1500px)">
+  <source srcset="/task/img_smallflower 1.jpg">
+  <img src="/task/img_smallflower 1.jpg" alt="Flowers">
+</picture>
+<h1 style="font-size:10vw">Hello World</h1>
+
+</body>
+
+</html>
